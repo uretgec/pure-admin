@@ -1,0 +1,139 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(142, 142, 214);
+}
+/* LOGIN CSS */
+#login {
+    padding-left: 50%; /* "left col (nav + list)" width */
+    position: relative;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    margin-left: -50%;
+    background: rgb(24, 33, 61);
+    color: #fff;
+}
+
+.header {
+    margin: 25% 2em 0;
+    text-align: right;
+}
+
+.brand-title,
+.brand-tagline {
+    margin: 0;
+}
+.brand-title {
+    text-transform: uppercase;
+}
+.brand-tagline {
+    font-weight: 300;
+    color: rgb(142, 142, 214);
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.pure-button-success,
+.pure-button-error,
+.pure-button-warning,
+.pure-button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.pure-button-success, .pure-alert-success {
+    background: rgb(28, 184, 65); /* this is a green */
+}
+
+.pure-button-error, .pure-alert-error {
+    background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.pure-button-warning, .pure-alert-warning {
+    background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.pure-button-secondary, .pure-alert-secondary {
+    background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+.nav-item a {
+    margin-top: 1em;
+}
+.nav-item a:hover,
+.nav-item a:focus {
+    text-decoration: none;
+}
+
+.content-subhead {
+    text-transform: uppercase;
+    color: #aaa;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.content {
+	margin: 15% 0 0;
+    padding: 2em 3em 0;
+}
+.content p {
+	line-height: 1em;
+	font-size: 0.8em;
+}
+aside {
+	padding: 0.1em 1em;
+	margin: 0.3em 0;
+	border-radius: 3px;
+	color: #fff;
+}
+@media (max-width: 767px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+        margin: 0;
+    }
+
+    .header {
+        text-align: center;
+        top: auto;
+        margin: 3em auto;
+        position: static;
+    }
+
+    .content {
+    	margin: 0;
+    }
+
+    #login {
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+    	margin: 0;
+        padding: 2em 1em 0;
+    }
+}
