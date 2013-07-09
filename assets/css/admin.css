@@ -33,6 +33,11 @@ table {
 p {
     line-height: 1.7em;
 }
+.opened { display: block;}
+.closed { display: none;}
+.search{
+    border-bottom: 1px solid #cccccc;
+}
 /* ADMIN Layouts */
 #layout {
     padding-left:150px; /* "left col (nav + list)" width */
