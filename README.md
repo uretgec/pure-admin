@@ -3,6 +3,14 @@ Pure Admin
 
 Pure CSS and many many usefull github projects used in Pure Admin Panel. Want to make simple blog cms and search simple admin panel, Pure Admin is here. Live demo (coming soon) http://uretgec.github.io/pure-admin
 
+# Todo (2015-03-26)
+- use Yeoman or gulp or grunt
+- New pages added and old pages re generated
+- Use sass and coffeescript
+- Use another js library like timepicker, datepicker etc.
+- Simple form builder page: if yeoman use this project
+- html: use jade or tpl based html
+
 # Screenshot
 
 ![Login Screen](https://github.com/uretgec/pure-admin/raw/master/screenshot-login.png)
