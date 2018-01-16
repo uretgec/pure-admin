@@ -1,4 +1,4 @@
-Pure Admin v1.0
+Pure Admin v2.0
 ===============
 
 Simple HTML Based Admin Panel.
