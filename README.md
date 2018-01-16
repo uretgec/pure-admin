@@ -11,7 +11,7 @@ Simple HTML Based Admin Panel.
 ![Form Screen](https://github.com/uretgec/pure-admin/raw/screenshot/screen-form.JPG)
 
 # Pages
--------
+
 1. Login
 2. Register
 3. Dashboard
@@ -22,6 +22,5 @@ Simple HTML Based Admin Panel.
 8. Profile
 
 # Used Wonderful Thing
-----------------------
 
 * PureCSS https://github.com/yui/pure/ - http://purecss.io/
