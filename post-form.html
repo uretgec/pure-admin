@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+    <title>Pure Admin Panel</title>
+
+    <link rel="stylesheet" href="assets/css/pure-min.css">
+    <link rel="stylesheet" href="assets/css/pure-responsive-min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="layout" class="pure-g">
+        <div class="sidebar pure-u-1 pure-u-md-3-24">
+            <div id="menu">
+                <div class="pure-menu">
+                    <p class="pure-menu-heading">
+                        Pure Admin
+                        <a href="login.html" class="pure-button button-xxsmall">OUT &raquo;</a>
+                    </p>
+                    <ul class="pure-menu-list">
+                        <li class="pure-menu-item">
+                            <a href="dashboard.html" class="pure-menu-link">Dashboard</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="post-list.html" class="pure-menu-link">Posts List</a>
+                        </li>
+                        <li class="pure-menu-item pure-menu-selected">
+                            <a href="post-form.html" class="pure-menu-link">Post Form</a>
+                        </li>
+                        <li class="pure-menu-item menu-item-divided">
+                            <a href="option-list.html" class="pure-menu-link">Option List</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="option-form.html" class="pure-menu-link">Option Form</a>
+                        </li>
+                        <li class="pure-menu-item menu-item-divided">
+                            <a href="profile.html" class="pure-menu-link">Profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="content pure-u-1 pure-u-md-21-24">
+            <div class="header-small">
+
+                <div class="items">
+                    <h1 class="subhead">Post Form</h1>
+
+                    <aside class="pure-message message-success">
+                        <p><strong>SUCCESS</strong>: Success message.</p>
+                    </aside>
+                    <aside class="pure-message message-error">
+                        <p><strong>ERROR</strong>: Error message.</p>
+                    </aside>
+                    <aside class="pure-message message-warning">
+                        <p><strong>WARNING</strong>: Warning message.</p>
+                    </aside>
+                    <form action="#" method="post" novalidate autocomplete="off" class="pure-form pure-form-stacked">
+                        <fieldset>
+
+                            <label for="title">Title</label>
+                            <input id="title" type="text" placeholder="Title" class="pure-input-1" value="">
+
+                            <label for="slug">Slug</label>
+                            <input id="slug" type="text" placeholder="Slug" class="pure-input-1" value="" disabled>
+
+                            <label for="excerpt">Excerpt</label>
+                            <input id="excerpt" type="text" placeholder="Excerpt" class="pure-input-1" value="">
+
+                            <label for="date">Date</label>
+                            <input id="date" type="text" placeholder="Date" class="pure-input-1" value="">
+
+                            <label for="content">Content</label>
+                            <textarea id="content" class="pure-input-1" rows="10"></textarea>
+
+                            <label for="status">Status</label>
+                            <select id="status" class="pure-input-1">
+                                <option value="1">Passive</option>
+                                <option value="2">Draft</option>
+                                <option value="3">Awaiting</option>
+                                <option value="4">Active</option>
+                            </select>
+
+                            <input type="hidden" name="id" value="1">
+                            <button type="submit" class="pure-button button-success">Save</button>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="footer">
+                    <div class="pure-menu pure-menu-horizontal">
+                        <ul>
+                            <li class="pure-menu-item"><a href="http://purecss.io/" class="pure-menu-link">PURE CSS</a></li>
+                            <li class="pure-menu-item"><a href="http://fikiruretgeci.com" class="pure-menu-link">FIKIR URETGECI</a></li>
+                            <li class="pure-menu-item"><a href="http://pure-themes.com" class="pure-menu-link">PURE THEMES</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
