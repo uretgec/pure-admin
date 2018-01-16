@@ -5,10 +5,10 @@ Simple HTML Based Admin Panel.
 
 # Screenshot
 
-![Login Screen](https://github.com/uretgec/pure-admin/raw/screenshot/screen-login.JPG)
-![Dashboard Screen](https://github.com/uretgec/pure-admin/raw/screenshot/screen-dashboard.JPG)
-![List Screen](https://github.com/uretgec/pure-admin/raw/screenshot/screen-list.JPG)
-![Form Screen](https://github.com/uretgec/pure-admin/raw/screenshot/screen-form.JPG)
+![Login Screen](https://github.com/uretgec/pure-admin/raw/screenshot/screen_login.JPG)
+![Dashboard Screen](https://github.com/uretgec/pure-admin/raw/screenshot/screen_dashboard.JPG)
+![List Screen](https://github.com/uretgec/pure-admin/raw/screenshot/screen_list.JPG)
+![Form Screen](https://github.com/uretgec/pure-admin/raw/screenshot/screen_form.JPG)
 
 # Pages
 
